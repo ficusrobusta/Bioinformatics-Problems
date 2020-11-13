@@ -20,3 +20,17 @@ DNA = "AAAACCCGGT"
 Rev = DNA[::-1]
 Rev
 
+def Revcom(Rev):
+    Rev_com = ""
+    for i in Rev:
+        if i == "T":
+            Rev_com = Rev_com + "A"
+        elif i == "A":
+            Rev_com = Rev_com + "T"
+        elif i == "C":
+            Rev_com = Rev_com + "G"
+        else:
+            i == "G"
+            Rev_com = Rev_com + "C"
+        
+    return Rev_com
