@@ -1,0 +1,10 @@
+The Secondary and Tertiary Structures of DNA
+Problem
+In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
+The reverse complement of a DNA string s s is the string sc s c formed by reversing the symbols of s s , then taking the complement of each symbol (e.g., the reverse complement of "GTCA" is "TGAC").
+Given: A DNA string s s of length at most 1000 bp.
+Return: The reverse complement sc s c of s s .
+Sample Dataset
+AAAACCCGGT
+Sample Output
+ACCGGGTTTT
