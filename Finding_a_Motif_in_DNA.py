@@ -33,5 +33,6 @@ t = "ATAT"
 
 import re
 position = [m.start() for m in re.finditer("(?=ATAT)", "GATATATGCATATACTT")]
+print(position)
 
 # Method 2
