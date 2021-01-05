@@ -18,7 +18,7 @@
 s = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 len(s)
 
-Method 1
+# Method 1
 
 count_A = s.count('A') 
 count_G = s.count('G')
@@ -26,7 +26,7 @@ count_T = s.count('T')
 count_C = s.count('C')
 print(count_A, count_C, count_G, count_T)
 
-Method 2
+# Method 2
 
 count_A = 0
 count_G = 0
