@@ -1,24 +1,24 @@
-Evolution as a Sequence of Mistakes
+# Evolution as a Sequence of Mistakes
 
-Problem
+# Problem
 
-Given two strings s and t of equal length, the Hamming distance between s and t, denoted dH(s,t),
-is the number of corresponding symbols that differ in s and t. See Figure 2.
+# Given two strings s and t of equal length, the Hamming distance between s and t, denoted dH(s,t),
+# is the number of corresponding symbols that differ in s and t. See Figure 2.
 
-Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
+# Given: Two DNA strings s and t of equal length (not exceeding 1 kbp).
 
-Return: The Hamming distance dH(s,t)dH(s,t).
+# Return: The Hamming distance dH(s,t)dH(s,t).
 
-Sample Dataset
+# Sample Dataset
 
-GAGCCTACTAACGGGAT
-CATCGTAATGACGGCCT
+# GAGCCTACTAACGGGAT
+# CATCGTAATGACGGCCT
 
-Sample Output
+# Sample Output
 
-7
+# 7
 
-Solution
+# Solution
 
 def Hamming(s,t):
     count = 0
