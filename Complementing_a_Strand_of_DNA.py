@@ -23,3 +23,13 @@ Rev
 Rev_com = Rev.translate(str.maketrans({'A': 'T', 'T': 'A', 'G': 'C', 'C': 'G'}))
 
 print(Rev_com)
+
+
+# Alternative solution
+
+DNA = "AAAACCCGGT"
+
+Rev = DNA[::-1]
+Rev
+Rev_com = Rev.translate(str.maketrans('ATGC', 'TACG'))
+print(Rev_com)
