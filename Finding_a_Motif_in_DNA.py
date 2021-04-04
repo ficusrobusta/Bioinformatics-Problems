@@ -36,19 +36,18 @@ position = [m.start() for m in re.finditer("(?=ATAT)", "GATATATGCATATACTT")]
 print(position)
 
 # Method 2
-# Not finished...
+
 
 def Motif(s,t):
     position = []
     i = 0
-    while i <= len(s)-len(t):
+    while i < len(s)-len(t):
         if s.find(t,i) != -1:
             position = position + [s.find(t,i)]
-            i = s.find(t) + 1
+            i = s.find(t,i) + 1
         else:
-            return position
-            
+            i = i + 1
+
     else:
         return position
-
 
